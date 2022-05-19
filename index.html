@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="">HyperGamers</a>
+        </div>
+        <div class="navigation">
+            <nav>
+                <ul class="list_navigation">
+                    <li class="menus">
+                        <button class="menu" id="menu-1">Todos</button>
+                    </li>
+                    <li class="menus">
+                        <button class="menu" id="menu-2">Mouses</button>
+                    </li>
+                    <li class="menus">
+                        <button class="menu" id="menu-3">Headsets</button>
+                    </li>
+                    <li class="menus">
+                        <button class="menu" id="menu-4">Cadeiras</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="products">
+            <ul class="list_products" id="list_products">
+            </ul>
+        </section>
+        <section class="container_right">
+            <section class="searchBar">
+                <input class="input" type="text" id="search_bar" placeholder = "Digite aqui sua pesquisa">
+                <button class="button_pesquisar" id="btn_searchBar">Pesquisar</button>
+            </section>
+            <section class="shopping_cart">
+                <div>
+                    <h2>Carrinho de compras</h2>
+                </div>
+                <div class="itens_cart">
+                    <ul class="unorderedList_itens_cart" id="cartProducts">
+                        <div id="containerCartVazio">
+                            <div class="notItens_cart">
+                                <h3 class="titleVazio_cart">Carrinho vázio</h3>
+                                <span class="spanAddItens_cart">Adicione itens</span>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </section>
+            <section class="valueAndQuantity">
+            </section>
+        </section>
+    </main>
+</body>
+</html>

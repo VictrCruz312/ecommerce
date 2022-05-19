@@ -1,0 +1,322 @@
+body, header, div, a, nav, ul, li, main, section, img, h1, h2, h3, h4, h5, h6, p, button, span, input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	line-height: 1;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	max-height: 70px;
+	padding: 0 117px;
+	margin-bottom: 61px;
+	align-items: center;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+}
+
+header .logo a{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 24px;
+	color: #292929;
+}
+
+header .navigation .list_navigation{
+	display: flex;
+	width: 346px;
+	justify-content: space-around;
+}
+
+header .navigation .list_navigation .menus .menu{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #242424;
+background-color: #FFFFFF;
+}
+
+header .navigation .list_navigation .menus .menu:hover{
+	color: #292929;
+	font-weight: 600;
+}
+
+main{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 115px;
+}
+
+main .products .list_products{
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 968px;
+	flex-wrap: wrap;
+}
+
+main .products .produto{
+	width: 296px;
+	height: 408px;
+	border: 2px solid #F5F5F5;
+}
+
+main .products .produto:hover{
+	border: 2px solid #37268C;
+}
+
+main .products .produto img{
+	width: 266px;
+	height: 150px;
+	max-width: 100%;
+	padding: 0 52px;
+	background-color: #FFFFFF;
+}
+
+main .products .produto h3{
+	display: inline-block;
+	padding: 10px 5px;
+	margin: 20px 0 15px 15px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #2E245E;
+}
+
+main .products .produto h2{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: #292929;
+	margin: 0 0 15px 15px;
+}
+
+main .products .produto p{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #242424;
+	margin: 0 15px 15px 15px;
+}
+
+main .products .produto .valor_product{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	color: #2E245E;
+}
+
+main .products .produto .button{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #242424;
+	margin: 0 0 20px 15px;
+}
+
+main .products .produto .button:hover{
+	text-decoration-line: underline;
+	color: #2E245E;
+}
+
+main .container_right{
+	align-items: center;
+	width: 347px;
+	max-width: 347px;
+	position: fixed;
+	left: 70%;
+}
+
+main .container_right .searchBar .input{
+	width: 246px;
+	height: 50px;
+	background: #F5F5F5;
+	border: 1px solid #F5F5F5;
+	padding-left: 14px;
+}
+main .container_right .searchBar .input::-webkit-input-placeholder{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #242424;
+}
+
+main .container_right .searchBar .button_pesquisar{
+	width: 96px;
+	background: #37268C;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	color: #FFFFFF;
+	height: 50px;
+}
+
+main .container_right .shopping_cart{
+	max-height: 400px;
+	background: #F5F5F5;
+}
+
+main .container_right .shopping_cart h2{
+	background: #37268C;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding: 13px 0;
+	margin: 30px 0 0 0 ;
+	text-align: center;
+}
+
+main .container_right .shopping_cart .itens_cart{
+	overflow-y: scroll;
+	height: 300px;
+	max-height: 300px;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart{
+	display: flex;
+	flex-direction: column;
+	padding: 10px 20px;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .notItens_cart{
+	text-align: center;
+	margin-top: 80px;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .notItens_cart .titleVazio_cart{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 24px;
+	color: #292929;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .notItens_cart .spanAddItens_cart{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #242424;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .iten_Cart{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	background: rgba(15, 15, 15, 0.3);
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .iten_Cart .img_iten_Cart{
+	width: 88px;
+	height: 67px;
+	margin: 3px 20px 3px 4px;
+}
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .iten_Cart .containerInfo_iten_Cart{
+	max-width: 190px;
+	padding: 3px;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .iten_Cart .title_iten_Cart{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #333333;
+	text-align: start;
+	white-space : nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0 10px 0 0 ;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .iten_Cart .valor_product{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	color: #2E245E;
+	margin: 4px 0 7px;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .iten_Cart .remove_iten_Cart{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #272727;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+main .container_right .shopping_cart .itens_cart .unorderedList_itens_cart .iten_Cart .remove_iten_Cart:hover{
+	text-decoration-line: underline;
+	color: #FFFFFF;
+	background-color: #37268C;
+	transition: 1s;
+}
+
+main .container_right .valueAndQuantity .containerVQ{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 345px;
+	height: 126px;
+	background: #292929;
+	padding: 0 30px 0 20px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+main .container_right .valueAndQuantity .containerVQ .quantity{
+	display: flex;
+	justify-content: space-between;
+}
+
+main .container_right .valueAndQuantity .containerVQ .valueTotal{
+	display: flex;
+	justify-content: space-between;
+}
